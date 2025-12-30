@@ -8,6 +8,5 @@ export { Providers } from "@/components/Providers";
 export { ScrollToHash } from "@/components/ScrollToHash";
 export { ThemeToggle } from "@/components/ThemeToggle";
 export { CustomMDX } from "@/components/mdx";
-export { default as DotGrid } from "@/components/DotGrid";
 export { default as GlassSurface } from "@/components/GlassSurface";
 export { GlassButton } from "@/components/GlassButton";
