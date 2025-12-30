@@ -11,4 +11,3 @@ export { CustomMDX } from "@/components/mdx";
 export { default as DotGrid } from "@/components/DotGrid";
 export { default as GlassSurface } from "@/components/GlassSurface";
 export { GlassButton } from "@/components/GlassButton";
-export { default as Dither } from "@/components/Dither";
