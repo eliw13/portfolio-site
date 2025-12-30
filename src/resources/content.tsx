@@ -102,9 +102,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Eli is an Illinois-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Their work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Eli is an Illinois-based Applications Analyst and photographer with a passion for technology
+        and automation. With experience in application development, IT support, and systems automation,
+        Eli helps organizations streamline their processes and enhance their technology infrastructure.
+        When not working with technology, Eli enjoys photography, gaming, and spending time with loved ones.
       </>
     ),
   },
@@ -113,41 +114,75 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Illinois State University",
+        timeframe: "July 2023 - Present",
+        role: "Applications Analyst",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Configure, support, and maintain various applications vital to the Division of Student Affairs.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Develop web applications utilizing low code development tools to enhance efficiency.
+          </>,
+          <>
+            Ensure the security of applications and sensitive data.
+          </>,
+          <>
+            Collaborate within the Student Affairs IT Applications team to meet functional and technical requirements.
+          </>,
+          <>
+            Play a pivotal role in enhancing technology resources for students and staff at ISU, thereby contributing to their success, safety, and overall experience.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "United Community Bank IL",
+        timeframe: "January 2023 - August 2023",
+        role: "Systems/Automations Engineer I & IT Help Desk Technician",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Designed, developed, and implemented automated solutions to streamline backend processes.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Wrote scripts to automate repetitive tasks and developed custom integrations between software systems.
+          </>,
+          <>
+            Monitored and maintained automated systems, troubleshot technical problems, and performed system upgrades.
+          </>,
+          <>
+            Provided technical support to end-users and managed computer replacements and imaging for new hires.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Illinois College",
+        timeframe: "September 2021 - January 2023",
+        role: "Student Developer & Student Technician",
+        achievements: [
+          <>
+            Maintained infrastructure of underlying automations using Microsoft Power Automate.
+          </>,
+          <>
+            Overhauled the college mobile application based on student feedback to better suit new and current students.
+          </>,
+          <>
+            Helped maintain the technology infrastructure and provided tech support.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Illinois REALTORS®",
+        timeframe: "May 2022 - August 2022",
+        role: "Information Technology Intern",
+        achievements: [
+          <>
+            Maintained office technology and provided tech support to staff members.
+          </>,
+          <>
+            Worked on SharePoint environment projects and automated tasks using Microsoft Power Automate.
           </>,
         ],
         images: [],
@@ -156,15 +191,11 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Illinois College",
+        description: <>Bachelor's degree, Computer Science (August 2019 - May 2023)</>,
       },
     ],
   },
