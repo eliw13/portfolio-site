@@ -9,4 +9,3 @@ export { ScrollToHash } from "@/components/ScrollToHash";
 export { ThemeToggle } from "@/components/ThemeToggle";
 export { CustomMDX } from "@/components/mdx";
 export { default as GlassSurface } from "@/components/GlassSurface";
-export { GlassButton } from "@/components/GlassButton";
