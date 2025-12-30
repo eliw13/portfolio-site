@@ -5,11 +5,11 @@ const person: Person = {
   firstName: "Eli",
   lastName: "Waterkotte",
   name: `Eli Waterkotte`,
-  role: "Design Engineer",
+  role: "Applications Analyst/Photographer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -102,7 +102,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Eli is a Jakarta-based design engineer with a passion for transforming complex challenges
+        Eli is an Illinois-based design engineer with a passion for transforming complex challenges
         into simple, elegant design solutions. Their work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
