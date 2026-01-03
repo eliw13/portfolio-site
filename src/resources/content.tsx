@@ -6,7 +6,7 @@ const person: Person = {
   lastName: "Waterkotte",
   name: `Eli Waterkotte`,
   role: "Applications Analyst/Photographer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/avatar-eli.jpg",
   email: "example@gmail.com",
   location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
@@ -204,36 +204,9 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Programming Languages",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Proficient in multiple programming languages for application development and automation.</>
         ),
         tags: [
           {
@@ -241,23 +214,115 @@ const about: About = {
             icon: "javascript",
           },
           {
+            name: "Python",
+            icon: "python",
+          },
+          {
+            name: "TypeScript",
+            icon: "typescript",
+          },
+          {
+            name: "PowerShell",
+            icon: "powershell",
+          },
+          {
+            name: "CSS",
+            icon: "css",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Front-End Design",
+        description: (
+          <>Building modern, responsive web applications with cutting-edge frameworks and libraries.</>
+        ),
+        tags: [
+          {
+            name: "React",
+            icon: "react",
+          },
+          {
             name: "Next.js",
             icon: "nextjs",
+          },
+          {
+            name: "HTML/CSS",
+            icon: "html",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Back-End Development",
+        description: (
+          <>Designing and implementing server-side logic and API integrations.</>
+        ),
+        tags: [
+          {
+            name: "Node.js",
+            icon: "nodejs",
+          },
+          {
+            name: "API Development",
+            icon: "api",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Databases",
+        description: (
+          <>Experience with both SQL and NoSQL databases for data management and storage.</>
+        ),
+        tags: [
+          {
+            name: "SQL",
+            icon: "database",
           },
           {
             name: "Supabase",
             icon: "supabase",
           },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Firebase",
+            icon: "firebase",
           },
         ],
+        images: [],
+      },
+      {
+        title: "DevOps & Tools",
+        description: (
+          <>Utilizing modern development tools and automation platforms to streamline workflows.</>
+        ),
+        tags: [
+          {
+            name: "Git/GitHub",
+            icon: "github",
+          },
+          {
+            name: "ServiceNow",
+            icon: "servicenow",
+          },
+          {
+            name: "Active Directory",
+            icon: "activedirectory",
+          },
+          {
+            name: "SCCM",
+            icon: "sccm",
+          },
+          {
+            name: "Power Automate",
+            icon: "automation",
+          },
+          {
+            name: "VS Code",
+            icon: "code",
+          },
+        ],
+        images: [],
       },
     ],
   },
