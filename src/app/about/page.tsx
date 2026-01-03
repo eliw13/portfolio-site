@@ -14,6 +14,7 @@ import {
 } from "@once-ui-system/core";
 import { baseURL, about, person, social } from "@/resources";
 import TableOfContents from "@/components/about/TableOfContents";
+import { DiscordPresence, GitHubPresence } from "@/components";
 import styles from "@/components/about/about.module.scss";
 import React from "react";
 
@@ -107,6 +108,12 @@ export default function About() {
                 ))}
               </Row>
             )}
+            
+            {/* GitHub Presence */}
+            <GitHubPresence username="eliw13" />
+            
+            {/* Discord Presence */}
+            <DiscordPresence userId="603480911014789121" />
           </Column>
         )}
         <Column className={styles.blockAlign} flex={9} maxWidth={40}>
